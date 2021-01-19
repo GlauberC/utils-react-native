@@ -11,11 +11,14 @@
   },
   "dependencies": {
     "@react-native-community/datetimepicker": "^3.0.9",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-masked-view/masked-view": "^0.2.0",
     "@types/styled-components-react-native": "^5.1.0",
     "date-fns": "^2.16.1",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-date-picker": "^3.2.7",
+    "react-native-skeleton-placeholder": "^3.0.2",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

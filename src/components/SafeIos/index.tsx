@@ -5,7 +5,7 @@ import { View, Platform, SafeAreaView } from 'react-native';
 
 const SafeIos: React.FC = ({ children }) => {
   return Platform.OS === 'ios' ? (
-    <SafeAreaView>{children}</SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>{children}</SafeAreaView>
   ) : (
     <>{children}</>
   );
